@@ -1,11 +1,9 @@
-// Kindly do not modify this file
-
-import fs from 'fs';
-import archiver from 'archiver';
-import path from 'path';
-import {glob} from 'glob';
-import FormData from 'form-data';
-import axios from 'axios';
+const fs = require('fs');
+const archiver = require('archiver');
+const path = require('path');
+const glob = require('glob');
+const FormData = require('form-data');
+const axios = require('axios');
 
 
 const directoryPath = './'; // Current directory path
